@@ -1,0 +1,16 @@
+طريقة إنشاء رابط عام دائم للمشروع
+=================================
+
+1) ارفع جميع محتويات هذا المجلد إلى Repository جديد في GitHub.
+2) افتح Streamlit Community Cloud وسجّل الدخول بحساب GitHub.
+3) اختر Create app.
+4) اختر الـ Repository.
+5) اكتب Main file path:
+   src/app_streamlit.py
+6) اختر Python 3.12 ثم اضغط Deploy.
+7) بعد اكتمال النشر سيظهر رابط ينتهي بـ streamlit.app ويمكن إرساله لأي شخص.
+
+مهم:
+- لا ترفع مجلد .venv.
+- لا تغيّر مكان requirements.txt.
+- لا تغيّر مكان src/welcome_exact.png.

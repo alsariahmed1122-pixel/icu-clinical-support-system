@@ -1,0 +1,8 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.rar
+*.zip
+.DS_Store
+.streamlit/secrets.toml
